@@ -32,6 +32,14 @@ content: |-
 
   {{ .Resources }}
 
+  ## Authors
+
+  Created by [M.Farhan Taib](https://github.com/ftcodelib) - https://my.linkedin.com/in/mohdfarhantaib.
+
+  ## License
+
+  Apache License 2.0 Licensed. See [LICENSE](LICENSE) for full details.
+
 output:
   file: README.md
   mode: replace

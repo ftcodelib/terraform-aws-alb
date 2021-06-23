@@ -101,4 +101,12 @@ module "example_lb" {
 | [aws_lb_target_group.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_target_group) | resource |
 | [aws_lb_target_group_attachment.this_instances](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_target_group_attachment) | resource |
 | [aws_route53_record.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record) | resource |
+
+## Authors
+
+Created by [M.Farhan Taib](https://github.com/ftcodelib) - https://my.linkedin.com/in/mohdfarhantaib.
+
+## License
+
+Apache License 2.0 Licensed. See [LICENSE](LICENSE) for full details.
 <!-- END_TF_DOCS -->    
