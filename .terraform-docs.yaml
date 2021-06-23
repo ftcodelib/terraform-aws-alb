@@ -1,0 +1,61 @@
+version: ">= 0.13.0"
+
+formatter: markdown
+
+header-from: main.tf
+footer-from: ""
+
+sections:
+  hide: []
+  show:
+  - requirements
+  - inputs
+  - outputs
+  - resources
+
+content: |-
+  # AWS ALB Module
+
+  This module to create AWS ALB form a set of list
+
+  {{ .Requirements }}
+
+  ## Examples
+
+  ```hcl
+  {{ include "examples/main.tf" }}
+  ```
+
+  {{ .Inputs }}
+  
+  {{ .Outputs }}
+
+  {{ .Resources }}
+
+output:
+  file: README.md
+  mode: replace
+  template: |-
+    <!-- BEGIN_TF_DOCS -->
+    {{ .Content }}
+    <!-- END_TF_DOCS -->    
+
+output-values:
+  enabled: false
+  from: ""
+
+sort:
+  enabled: true
+  by: required
+
+settings:
+  anchor: true
+  color: true
+  default: true
+  description: false
+  escape: true
+  html: true
+  indent: 2
+  required: true
+  sensitive: true
+  type: true

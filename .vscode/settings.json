@@ -1,0 +1,32 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "terraform.languageServer": {
+    "[terraform]": {
+      "editor.formatOnSave": true
+    },  
+    "external": true,
+    "pathToBinary": "",
+    "args": [
+      "serve"
+    ],
+    "maxNumberOfProblems": 100,
+    "trace.server": "off"
+  },
+  "python.pythonPath": "/usr/local/bin/python3",
+  "files.associations": {
+    "*yaml": "yaml",
+    "*.yml": "yaml",
+    "Jenkinsfile": "jenkins",
+    "*.tf": "terraform",
+    "*.tfvars": "terraform",
+    "*.tfstate": "terraform",
+    "*.tfstate.backup": "terraform",
+    "*.tpl": "jinja",
+  }
+}
